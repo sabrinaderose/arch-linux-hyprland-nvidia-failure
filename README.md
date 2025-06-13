@@ -7,7 +7,7 @@
 
 ## 📘 Summary
 
-Attempted to install **Arch Linux** with **Hyprland** (a tiling Wayland compositor) on a machine with an **NVIDIA GPU**. This setup led to persistent boot and display issues due to known incompatibilities between **Hyprland** and **proprietary NVIDIA drivers**.
+Attempted to install **Arch Linux** with **Hyprland** (a tiling Wayland compositor) on a machine with an **NVIDIA GPU**. This setup led to persistent boot and display issues due to known incompatibilities between **Hyprland** and **proprietary NVIDIA drivers**. For more information regarding Hyprland with Nivida, please review the [`NVidia page on the Hyprland Wiki, here`](https://wiki.hypr.land/Nvidia/).
 
 ---
 
@@ -94,7 +94,7 @@ GRUB_CMDLINE_LINUX_DEFAULT="quiet splash nvidia_drm.modeset=1"
 ## ✅ Recommendations
 
 > [!TIP]
-> Save yourself hours of frustration by starting with more compatible setups when learning or testing on bare metal.
+> Save yourself hours of frustration by starting with more compatible setups when learning or testing on bare metal. I would recommend, if available, setting up a virtual-machine, and trial-error until a stable build is reached.
 
 - Use **KDE/X11** or **GNOME/Wayland** with NVIDIA for improved compatibility.
 - Never test experimental configs on production hardware.
